@@ -1,10 +1,23 @@
 # Deploying Heroku
 
-## Index
-1. Establish SSH Communication
-2. Create Heroku Module
-3. Set the Start Script
-4. Set the Node.js Port
-5. Remove Domain from Request URL
-6. Push Changes in Git
-7. Push Changes in Heroku
+The site is enable in the next URL:
+
+https://sua-weather-app.herokuapp.com/
+
+Usefull commands:
+
+```
+heroku open
+```
+
+Will open the browser with the web application
+
+```
+heroku create 
+```
+Wiil create a new heroku application setting up a heroku git remote repository.
+
+```
+git push heroku master
+```
+Will post the local change in the heroku remote environment.
